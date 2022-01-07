@@ -6,7 +6,7 @@ see [aws php sdk](https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/get
 ```php
 'components' => [
     'minio' => [
-        'class' => 'common\helpers\S3Client',
+        'class' => 'yanggs07\S3Client',
         'version' => 'latest',
         'region' => 'us-east-1',
         'endpoint' => 'http://minio.server:9000',
